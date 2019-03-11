@@ -1,0 +1,21 @@
+fdfs:
+  so-timeout: 20000
+  connect-timeout: 20000
+  thumb-image:
+    width: 150
+    height: 150
+  tracker-list:
+    - fuwuqidizhi:22122
+  pool:
+    max-total: 50
+    max-wait-millis: 5000
+
+file:
+  prefix: http://fuwuqidizhi:8846/
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  port: 8090
