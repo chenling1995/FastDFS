@@ -46,7 +46,7 @@ public class UploadController {
 
     private Set<MataData> createMataData() {
         Set<MataData> metaDataSet = new HashSet<MataData>();
-        metaDataSet.add(new MataData("Author", "chenling"));
+        metaDataSet.add(new MataData("Author", "cl"));
         metaDataSet.add(new MataData("CreateDate", DateUtil.now()));
         return metaDataSet;
     }
